@@ -18,6 +18,7 @@
   background-color: #4E5469;
   background-image: none;
   border-radius: 0px;
+  text-align: center;
 
   .navbar-brand {
     font-family: 'Quicksand', sans-serif;
@@ -42,10 +43,18 @@
   }
 }
 
+.center {
+  display: inline-block;
+  float: none;
+  text-align: center;
+}
+
 .panel {
   border: none;
   border-bottom: 2px solid #000;
   border-radius: 0;
+  margin-bottom: 0;
+  box-shadow: none;
 }
 .panel-default {
   
@@ -58,10 +67,10 @@
 }
 .panel-heading > a {
   font-family: 'Roboto Slab', serif;
-  font-size: 60px;
+  font-size: 56px;
   font-weight: 300;
   color: #df4747;
-
+  letter-spacing: -1px;
   text-transform: capitalize;
 
   &:hover {
@@ -71,7 +80,7 @@
 
 .panel-body {
   font-family: 'Roboto Slab', serif;
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 300;
   padding: 5px 15px 30px 15px;
 }
