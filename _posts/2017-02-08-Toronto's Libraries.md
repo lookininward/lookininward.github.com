@@ -2,6 +2,7 @@
 layout: post
 category : about
 tagline: "Starting out"
+description: I had (have) the tendency to want to try out difficult solutions, but I'm starting to embrace the minimalistic approach where possible. 
 tags : [intro, jekyll]
 ---
 {% include JB/setup %}

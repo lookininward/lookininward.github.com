@@ -13,12 +13,103 @@
 /*.navbar .nav {
   float: right; }*/
 
+
+.navbar-default {
+  background-color: #4E5469;
+  background-image: none;
+  border-radius: 0px;
+
+  .navbar-brand {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+
+    &:hover {
+      color: #FFFFFF;
+    }
+  }
+
+  .navbar-nav > li > a {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+
+    &:hover {
+      color: #FFFFFF;
+    }
+  }
+}
+
+.panel {
+  border: none;
+  border-bottom: 2px solid #000;
+}
+.panel-default {
+  
+}
+.panel-default .panel-heading {
+  background-image: none;
+  background-color: #FFFFFF;
+  border: none;
+  padding: 10px 15px 5px 15px;
+}
+.panel-heading > a {
+  font-family: 'Roboto Slab', serif;
+  font-size: 60px;
+  font-weight: 300;
+  color: #df4747;
+
+  text-transform: capitalize;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.panel-body {
+  font-family: 'Roboto Slab', serif;
+  font-size: 26px;
+  font-weight: 300;
+  padding: 5px 15px 15px 15px;
+}
+
+.date {
+  margin-top: 30px;
+  padding-left: 15px;
+
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+
+  text-transform: uppercase;
+}
+
+#more-articles {
+  background-image: none;
+  background-color: #df4747;
+  color: #FFF;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
 /* Jekyll Bootstrap Colors */
 h1, h2, h3, h4 {
   color: #f22430;
 }
 #footer {
-  background-color: #fdcd60;
+  background-color: #4E5469;
+  color: #FFFFFF;
+  padding: 40px 0 40px 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
 }
 
 
