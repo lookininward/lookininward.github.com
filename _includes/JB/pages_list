@@ -5,7 +5,8 @@ Usage:
   2) include JB/pages_list
   example:
     <ul>
-  	  {% assign pages_list = site.pages %}  
+  	  {% assign pages_list = site.pages %} 
+      {% assign group = site.pages %} 
   	  {% include JB/pages_list %}
   	</ul>
   	
