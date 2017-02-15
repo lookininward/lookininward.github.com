@@ -45,6 +45,7 @@
 .panel {
   border: none;
   border-bottom: 2px solid #000;
+  border-radius: 0;
 }
 .panel-default {
   
@@ -72,7 +73,7 @@
   font-family: 'Roboto Slab', serif;
   font-size: 26px;
   font-weight: 300;
-  padding: 5px 15px 15px 15px;
+  padding: 5px 15px 30px 15px;
 }
 
 .date {
