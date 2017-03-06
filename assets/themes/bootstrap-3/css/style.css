@@ -11,25 +11,39 @@
 /*.navbar .nav {
   float: right; }*/
 .navbar-default {
-  background-color: #4E5469;
+  height: 100px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
   background-image: none;
   border-radius: 0px;
-  text-align: center; }
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
   .navbar-default .navbar-brand {
     font-family: 'Quicksand', sans-serif;
+    font-size: 2em;
     font-weight: 300;
-    color: #FFFFFF;
+    color: #000;
     letter-spacing: 3px; }
     .navbar-default .navbar-brand:hover {
-      color: #FFFFFF; }
+      color: #000; }
   .navbar-default .navbar-nav > li > a {
     font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
     font-weight: 300;
-    color: #FFFFFF;
+    color: #000;
     letter-spacing: 1px; }
     .navbar-default .navbar-nav > li > a:hover {
-      color: #FFFFFF; }
+      color: #000; }
 
+@media (max-width: 767px) {
+  .navbar-default {
+    display: block;
+    height: auto; }
+    .navbar-default .navbar-brand {
+      font-size: 1.5em; } }
 .center {
   display: inline-block;
   float: none;
@@ -54,6 +68,7 @@
   font-weight: 300;
   color: #df4747;
   letter-spacing: -1px;
+  line-height: 1.2;
   text-transform: capitalize; }
   .panel-heading > a:hover {
     text-decoration: none; }
@@ -88,10 +103,10 @@ h1, h2, h3, h4 {
 #footer {
   background-color: #4E5469;
   color: #FFFFFF;
-  padding: 40px 0 40px 0;
+  padding: 100px 0 100px 0;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center; }
 
 /* posts index */
