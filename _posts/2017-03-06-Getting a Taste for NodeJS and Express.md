@@ -14,7 +14,6 @@ The project is fairly simple with the following goals:
 - Learn Express for site routing
 - Learn NodeJS to run a development server
 - Learn how to integrate bootstrap (beyond CDN) into the project
-- Plus other key concepts
 
 Follow my progress here:
 <a href="https://github.com/lookininward/neb_template" target="_blank">neb_template</a>

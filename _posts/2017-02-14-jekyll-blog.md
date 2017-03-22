@@ -2,8 +2,8 @@
 layout: post
 category : about
 tagline: "Starting out"
-description: I was first exposed to Jekyll about 6 months ago when I started a co-op term with the Centre for Global eHealth Innovation.
-tags : [intro, jekyll]
+description: I was first exposed to Jekyll about 6 months ago when I started a co-op term with the Centre for Global eHealth Innovation
+tags : [intro, jekyll, eHealth]
 ---
 {% include JB/setup %}
 
