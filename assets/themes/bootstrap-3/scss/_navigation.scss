@@ -1,8 +1,8 @@
 // NAVIGATION 
 
 .navbar-default {
-  height: 100px;
-  max-width: 1000px;
+  height: 50px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 10px;
   // background-color: #4E5469;
@@ -16,7 +16,7 @@
 
   .navbar-brand {
     font-family: 'Quicksand', sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 300;
     // color: #FFFFFF;
     color: #000;
@@ -29,7 +29,7 @@
 
   .navbar-nav > li > a {
     font-family: 'Quicksand', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     // color: #FFFFFF;
     color: #000;

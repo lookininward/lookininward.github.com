@@ -10,13 +10,11 @@ tagline: a place for my thoughts
 
 {% for post in site.posts limit: 4 %}
 <div class="row">
-	<div class="col-lg-1 vcenter">
-		<div class="date">
-		{{ post.date | date_to_string | date: "%b %d" }} 
-		</div>
-	</div>
-	<div class="col-lg-11">
+	<div class="col-lg-10">
 		<div class="panel panel-default">
+			<div class="date">
+			{{ post.date | date_to_string | date: "%b %d" }} 
+			</div>
 			<div class="panel-heading">
 				<a href="{{ BASE_PATH}}{{ post.url }}">{{ post.title }}</a><br/>
 			</div>
@@ -25,13 +23,16 @@ tagline: a place for my thoughts
 			</div>
 		</div>
 	</div>
+<!-- 	<div class="col-lg-2">
+		Hello
+	</div> -->
 </div>
 {% endfor %}
 <br/>
 
 <div class="row">
-	<div class="col-lg-12 text-right">
-		<button type="button" class="btn btn-default" id="more-articles">More Articles</button>
+	<div class="col-lg-10 text-right">
+		<a href="/archive"><button type="button" class="btn btn-default" id="more-articles">More Articles</button></a>
 	</div>
 </div>
 

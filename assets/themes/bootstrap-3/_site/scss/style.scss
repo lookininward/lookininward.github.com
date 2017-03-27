@@ -13,12 +13,104 @@
 /*.navbar .nav {
   float: right; }*/
 
+
+// NAVIGATION --------------------------------------------------------------------------------------
+@import 'navigation';
+
+
+
+
+
+
+
+
+
+.center {
+  display: inline-block;
+  float: none;
+  text-align: center;
+}
+
+.panel {
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  border-radius: 0;
+  margin-bottom: 0;
+  box-shadow: none;
+
+
+}
+.panel-default {
+
+}
+.panel-default .panel-heading {
+  background-image: none;
+  background-color: #FFFFFF;
+  border: none;
+  padding: 15px 15px 5px 15px;
+}
+.panel-heading > a {
+  font-family: 'Roboto Slab', serif;
+  font-size: 36px;
+  font-weight: 300;
+  color: #df4747;
+  letter-spacing: -1px;
+  line-height: 1.2;
+  text-transform: capitalize;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.panel-body {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 5px 15px 30px 15px;
+}
+
+.date {
+  margin-top: 30px;
+  padding-left: 15px;
+
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+
+  text-transform: uppercase;
+}
+
+#more-articles {
+  background-image: none;
+  background-color: #df4747;
+  color: #FFF;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+
+
+
+
+
 /* Jekyll Bootstrap Colors */
 h1, h2, h3, h4 {
   color: #f22430;
 }
+
+
 #footer {
-  background-color: #fdcd60;
+  background-color: #4E5469;
+  color: #FFFFFF;
+  padding: 100px 0 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
 

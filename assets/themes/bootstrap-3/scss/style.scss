@@ -33,7 +33,7 @@
 
 .panel {
   border: none;
-  border-bottom: 2px solid #000;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
   border-radius: 0;
   margin-bottom: 0;
   box-shadow: none;
@@ -47,11 +47,11 @@
   background-image: none;
   background-color: #FFFFFF;
   border: none;
-  padding: 10px 15px 5px 15px;
+  padding: 15px 15px 5px 15px;
 }
 .panel-heading > a {
   font-family: 'Roboto Slab', serif;
-  font-size: 56px;
+  font-size: 36px;
   font-weight: 300;
   color: #df4747;
   letter-spacing: -1px;
@@ -65,7 +65,7 @@
 
 .panel-body {
   font-family: 'Roboto Slab', serif;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 300;
   padding: 5px 15px 30px 15px;
 }
@@ -84,11 +84,13 @@
 #more-articles {
   background-image: none;
   background-color: #df4747;
+  border: none;
   color: #FFF;
   font-family: 'Roboto Slab', serif;
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 300;
   letter-spacing: 2px;
+  padding: 6px 16px 6px 16px;
 }
 
 
@@ -105,7 +107,7 @@ h1, h2, h3, h4 {
 #footer {
   background-color: #4E5469;
   color: #FFFFFF;
-  padding: 100px 0 100px 0;
+  padding: 120px 0 100px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
