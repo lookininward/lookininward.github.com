@@ -173,3 +173,30 @@ h1, h2, h3, h4 {
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+
+// Articles
+
+
+
+  // Portfolio
+  .panel-title h2 {
+    color: #f22430;
+      font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: 300;
+    color: #df4747;
+    letter-spacing: -1px;
+    line-height: 1.2;
+    text-transform: capitalize;
+
+    &:hover {
+      // text-decoration: none;
+    }
+  }
+
+  .panel-body {
+    p {
+      font-size: 20px;
+    }
+  }
