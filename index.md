@@ -8,6 +8,12 @@ tagline: a place for my thoughts
 
 <br/>
 
+<!-- <div class="jumbotron">
+  <div class="container">
+    <img src="assets/images/forest-light.jpg" class="img-responsive">
+  </div>
+</div> -->
+
 {% for post in site.posts limit: 4 %}
 <div class="row">
 	<div class="col-lg-10">
