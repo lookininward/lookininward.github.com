@@ -191,10 +191,17 @@ h1, h2, h3, h4 {
     text-transform: capitalize;
 
     &:hover {
-      // text-decoration: none;
+      text-decoration: none !important;
+      underline: none !important;
+      border: none !important;
     }
+
   }
 
+.panel-title {
+      a:hover,
+      a:focus {text-decoration:none !important;}
+}
   .panel-body {
     p {
       font-size: 20px;
