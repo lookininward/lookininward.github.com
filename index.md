@@ -14,9 +14,10 @@ tagline: a place for my thoughts
   </div>
 </div> -->
 
-{% for post in site.posts limit: 4 %}
+
 <div class="row">
 	<div class="col-lg-10">
+	{% for post in site.posts limit: 4 %}
 		<div class="panel panel-default">
 			<div class="date">
 			{{ post.date | date_to_string | date: "%b %d" }} 
@@ -28,13 +29,19 @@ tagline: a place for my thoughts
 				{{ post.description }}
 			</div>
 		</div>
+		{% endfor %}
 	</div>
-<!-- 	<div class="col-lg-2">
-		Hello
-	</div> -->
+<!-- 	  <div class="col-lg-2">
+          <a href="#" class="thumbnail">
+            <img src="/assets/images/clients/ehealth-logo.jpg" class="responsive">
+          </a>
+        </div> -->
 </div>
-{% endfor %}
+
 <br/>
+
+
+      
 
 <div class="row">
 	<div class="col-lg-10 text-right">
